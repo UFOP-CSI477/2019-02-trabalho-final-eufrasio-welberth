@@ -14,13 +14,13 @@ Site tem um foco aproximado com um rede social
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
-- Cadastro, login e atualizações de contas
-- Buscas por jogadores, jogos e horarios que estão normalmente jogando, função que conta somente com o banco de dados do propria aplicação.
+- Cadastro, login e atualizações de contas.
+- Buscas por jogadores, jogos e horarios que estão normalmente jogando.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados o totalidade de jogadores nos jogos, as informações completas dos jogos.
+  Neste trabalho não serão considerados o totalidade de jogadores nos jogos e nem as informações completas dos jogos.Conta somente com o banco de dados da propria aplicação sem considerar outros banco de dados.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
