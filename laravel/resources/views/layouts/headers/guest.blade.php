@@ -1,9 +1,10 @@
-<div class="header bg-gradient-primary py-7 py-lg-8">
+<div class="header  py-7 py-lg-8" style="background-image: url(../clan/img/guild-wars-2-29399-1920x1200.jpg); background-size: cover; background-position: center top;">
+    <span class="mask bg-gradient-default opacity-5"></span>
     <div class="container">
         <div class="header-body text-center mb-7">
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-6">
-                    <h1 class="text-white">{{ __('Welcome to Argon Dashboard FREE Laravel Live Preview.') }}</h1>
+                    <h1 class="text-white">{{ __('Welcome to Clan.') }}</h1>
                 </div>
             </div>
         </div>
