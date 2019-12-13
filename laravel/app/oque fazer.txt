@@ -1,0 +1,3 @@
+tabela de jogadores no show do server
+tabela de jogos no show do jogadores
+auth onde precisa

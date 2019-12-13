@@ -16,6 +16,7 @@ class CreateServersTable extends Migration
         Schema::create('servers', function (Blueprint $table) {
             $table->bigIncrements('id')->onDelete('cascade');
             $table->string('name');
+            $table->unsignedInteger('game_id');
             $table->foreign('game_id')->references('id')->on('games');
             $table->timestamps();
 

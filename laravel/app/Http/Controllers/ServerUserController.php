@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Server_User;
 use Illuminate\Http\Request;
+use App\Game;
+use App\Server;
+use Illuminate\Support\Facades\Auth;
 
 class ServerUserController extends Controller
 {
@@ -12,6 +15,10 @@ class ServerUserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function index()
     {
         //
@@ -22,10 +29,11 @@ class ServerUserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+ 
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -35,7 +43,13 @@ class ServerUserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+    
+        $server_users= new Server_User;
+         $server_users->fill($request->all());
+         $server_users->user_id= Auth::user()->id;
+         $server_users->save();
+         return redirect()->route('profile.edit');
+      
     }
 
     /**
@@ -80,6 +94,18 @@ class ServerUserController extends Controller
      */
     public function destroy(Server_User $server_User)
     {
-        //
+        $server_User->delete();
+        return redirect()->route('games.index');
+    }
+    public function game(){
+        $games = Game::orderBy('name')->get();
+        return view('server_users.game',['games'=>$games]);
+
+    }
+    public function server(Request $game){
+        $servers= Server::where('servers.game_id','=',$game->game_id)->get();
+        // dd($game);
+        return view('server_users.server',['servers'=>$servers]);
+
     }
 }

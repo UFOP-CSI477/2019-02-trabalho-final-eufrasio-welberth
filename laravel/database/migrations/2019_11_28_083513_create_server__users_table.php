@@ -15,10 +15,13 @@ class CreateServerUsersTable extends Migration
     {
         Schema::create('server__users', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->date('started');
+            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('server_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('server_id')->references('id')->on('servers');
             $table->string('character');
-            $table->integer('period');
+            $table->tinyInteger('period');
             $table->timestamps();
         });
     }

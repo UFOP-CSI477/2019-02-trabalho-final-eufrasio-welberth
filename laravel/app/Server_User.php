@@ -13,4 +13,7 @@ class Server_User extends Model
     public function server() {
         return $this->belongsTo('App\Server');
       }
+      protected $fillable = [
+        'started', 'user_id', 'server_id','character','period'
+    ];
 }

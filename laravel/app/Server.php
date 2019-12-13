@@ -13,4 +13,7 @@ class Server extends Model
     public function server_users() {
         return $this->hasMany('App\Serve_User');
       }
+      protected $fillable = [
+        'name', 'game_id',
+    ];
 }
