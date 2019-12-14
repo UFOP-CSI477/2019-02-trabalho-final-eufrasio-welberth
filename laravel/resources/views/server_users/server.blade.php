@@ -57,7 +57,7 @@
                                         @endif
                                     </div>
                                     <div class="form-group{{ $errors->has('period') ? ' has-danger' : '' }}">
-                                        <label class="form-control-label" for="input-period">{{ __('Begining in') }}</label>
+                                        <label class="form-control-label" for="input-period">{{ __('Play in Period of:') }}</label>
                                         <select name="period"  id="input-period" class="form-control form-control-alternative{{ $errors->has('period') ? ' is-invalid' : '' }}" placeholder="{{ __('') }}" value="{{ old('period') }}" required autofocus>
                                            
                                             <option value="" selected disabled hidden>Choose an Period</option>

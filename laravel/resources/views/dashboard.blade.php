@@ -31,9 +31,9 @@
                         <div class="pl-lg-4">
 
                             <div class="">
-                            <p > <font color="black"> Trabalho foi focado em fazer uma plataforma para que pessoas que jogão online, independente de qual, tem como emcontrar pessoas conhecidas que ja jogaram antes juntas em um mesmo clan.
+                            <p > <font color="black"> Trabalho foi focado em fazer uma plataforma para que pessoas que jogam jogos online, independente de qual, tem como encontrar pessoas conhecidas que já jogaram antes juntas em um mesmo clan.
                             </font></p>
-                            <p>A intenção é que clans com maior número de membros tenham onde seus jogadores colocarem oque estão jogando atualmente, essa necessidade se faz que uma vez que uma pessoa migra de um jogo para outro se torna dificl ter o paradeiro dela essa ferramenta tem exatamente este objetivo</p>
+                            <p><font color="black">A intenção é que clans com maior número de membros tenham onde seus jogadores colocarem o que estão jogando atualmente, essa necessidade se faz que uma vez que uma pessoa migra de um jogo para outro se torna difícil ter o paradeiro dela. Essa ferramenta tem exatamente este. objetivo</font></p>
                             </div>                             
             
                         </div>
