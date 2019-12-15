@@ -25,8 +25,10 @@ Site tem um foco aproximado com um rede social
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
+  *Pagina Principal:![alt-text][index]
 
-### 5. Referências
 
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+
+
+
+[index]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/index.png "Tela inicial"
