@@ -31,7 +31,7 @@ Site tem um foco aproximado com um rede social
   *Pagina de Jogos Cadastrados:![alt-text][games]
   *Pagina de Usuários Cadastrados:![alt-text][user]
   *Pagina de Informações do Usuário:![alt-text][user_show]
-  *Pagina de Perfil do Usuário:![alt-text][pofile]
+  *Pagina de Perfil do Usuário:![alt-text][profile]
 
 
 
