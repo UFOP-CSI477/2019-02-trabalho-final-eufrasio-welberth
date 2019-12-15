@@ -44,4 +44,4 @@ Site tem um foco em facilitar o encontro de pessoas dentro de jogos online.
 [profile]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/profile.png "Tela de Perfil de Usuario"
 
 ### 5. Configuração do Ambiente
-Crie um banco de dados, altere o .env e dentro da pasta abra um prompt de comando e use o comando "php artisan migrate"
+Crie um banco de dados, altere o .env e dentro da pasta abra o prompt de comando e use o comando "php artisan migrate"
