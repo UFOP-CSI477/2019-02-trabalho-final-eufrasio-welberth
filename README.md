@@ -31,15 +31,15 @@ Site tem um foco em facilitar o encontro de pessoas dentro de jogos online.
   *Pagina de Jogos Cadastrados:![alt-text][games]
   *Pagina de Usuários Cadastrados:![alt-text][user]
   *Pagina de Informações do Usuário:![alt-text][user_show]
-  *Pagina de Perfil do Usuário:![alt-text][pofile]
+  *Pagina de Perfil do Usuário:![alt-text][profile]
 
 
 
 [index]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/index.png "Tela inicial"
 [login]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/login.png "Tela de Login"
 [register]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/register.png "Tela de Registro"
-[games]: https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/games.png "Tela de Jogos Cadastrados"
-[user]: https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/user.png "Tela de Usuarios"
+[games]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/games.png "Tela de Jogos Cadastrados"
+[user]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/user.png "Tela de Usuarios"
 [user_show]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/user_show.png "Tela com Informações de um Usuario"
 [profile]:https://github.com/UFOP-CSI477/2019-02-trabalho-final-eufrasio-welberth/blob/master/prototype/profile.png "Tela de Perfil de Usuario"
 
